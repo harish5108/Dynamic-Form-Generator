@@ -118,5 +118,5 @@ To build the application for production, use the following command:
 
 ## Final output
 
-<img align="center" alt="Output" width="400" src="https://raw.githubusercontent.com/harish5108/Dynamic-Form-Generator/refs/heads/main/Screenshot%202024-11-19%20094435.jpg">
+<img align="center" alt="Output" src="https://raw.githubusercontent.com/harish5108/Dynamic-Form-Generator/refs/heads/main/Screenshot%202024-11-19%20094435.jpg">
 

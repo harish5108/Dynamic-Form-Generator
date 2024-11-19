@@ -65,7 +65,11 @@ The Dynamic Form Generator is a tool that allows users to create forms dynamical
   3. Testing:
       - Test coverage
       - Edge case handling
-
+ ### Bonus Points
+  - Add a "Copy Form JSON" button
+  - Implement form field validation preview
+  - Add dark mode support
+  - Add ability to download form submissions as JSON
 
 ## Setup Instructions
 

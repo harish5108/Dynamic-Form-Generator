@@ -3,6 +3,69 @@
 ## Overview
 
 The Dynamic Form Generator is a tool that allows users to create forms dynamically based on JSON schemas. It simplifies the process of form creation, validation, and data handling.
+ ### Background
+ - Create a dynamic form generator that takes a JSON schema and generates a styled, functional form in real-time. The application should display the JSON editor and the generated form side by side.
+
+### Main Interface
+ 1. Create a split-screen interface with:
+    - Left side: JSON editor
+      - Syntax highlighting for JSON
+      - Real-time JSON validation
+      - Error messages for invalid JSON
+    - Right side: Generated form preview
+      - Updates in real-time as JSON is edited
+      - Responsive form layout
+      - Proper error states and validation
+
+2. Technical Requirements:
+   - Use TypeScript for type safety
+   - Create proper interfaces for the JSON schema
+   - Handle JSON validation gracefully
+   - Real-time form generation and validation
+   - Proper error boundaries for both editor and form
+   - Mobile-responsive layout (stack editor and preview on smaller screens)
+   
+### Form Features
+ - The generated form should:
+    - Support all field types from the schema
+    - Show proper validation messages
+    - Have loading states where appropriate
+    - Submit data to console.log()
+    - Show success message after submission
+    - Be styled consistently using Tailwind CSS
+
+ ### Testing Requirements
+  - Write tests using Playwright and Jest:
+    - Test JSON validation
+    - Test real-time form generation
+    - Test form validation and submission
+    - Test responsive layout
+    - Test error scenarios
+
+  ### Technical Stack
+   - React 18+
+   - TypeScript
+   - Tailwind CSS
+   - React Hook Form
+   - Playwright for E2E testing
+   - Jest for unit testing
+
+  ### Evaluation Criteria
+  
+   1. Code Quality:
+      - TypeScript usage and type safety
+      - Component structure and reusability
+      - Error handling
+      - Code organization
+   2. User Experience:
+      - Real-time updates
+      - Form responsiveness
+      - Error messages
+      - Mobile compatibility
+  3. Testing:
+      - Test coverage
+      - Edge case handling
+
 
 ## Setup Instructions
 

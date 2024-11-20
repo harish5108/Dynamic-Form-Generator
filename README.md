@@ -112,7 +112,7 @@ The application should now be running at http://localhost:3000.
 ## Example JSON Schemas
 Here are a couple of example JSON schemas to demonstrate how to define forms:
 
-    ```json
+    
     {
       "formTitle": "Project Requirements Survey",
       "formDescription": "Please fill out this survey about your project needs",
